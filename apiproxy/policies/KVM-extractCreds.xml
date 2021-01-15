@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-extractCreds" mapIdentifier="sfdc_creds">
+    <DisplayName>KVM-extractCreds</DisplayName>
+    <Properties/>
+    <Get assignTo="private.sfdc.username" index="1">
+        <Key>
+            <Parameter>username</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.sfdc.password" index="1">
+        <Key>
+            <Parameter>password</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.sfdc.client_id" index="1">
+        <Key>
+            <Parameter>client_id</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.sfdc.client_secret" index="1">
+        <Key>
+            <Parameter>client_secret</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

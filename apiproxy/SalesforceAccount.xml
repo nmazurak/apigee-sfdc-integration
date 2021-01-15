@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="SalesforceAccount">
+    <Basepaths>/v1/account</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1610362338416</CreatedAt>
+    <CreatedBy>amaz2@softserveinc.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>SalesforceAccount</DisplayName>
+    <LastModifiedAt>1610535636326</LastModifiedAt>
+    <LastModifiedBy>amaz2@softserveinc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:70ce8613a9665e02225f4291d6a429ca6e372aa53377468139cbff5dac724b4f272719961e7c4b8fd6f5602efdc5a94646a54c0bcf179aa4c537140890b8a6ca:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-createPayload</Policy>
+        <Policy>AM-createRequest</Policy>
+        <Policy>AM-getQueryString</Policy>
+        <Policy>AM-readResponse</Policy>
+        <Policy>EV-extractToken</Policy>
+        <Policy>KVM-extractCreds</Policy>
+        <Policy>Load-SFDC-creds</Policy>
+        <Policy>SFDC-Token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

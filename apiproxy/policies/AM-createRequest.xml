@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-createRequest">
+    <DisplayName>AM-createRequest</DisplayName>
+    <Properties/>
+    <Add>
+        <Headers>
+            <Header name="Authorization">{token_type} {access_token}</Header>
+            <Header name="Content-Type">application/json</Header>
+        </Headers>
+    </Add>
+    <Set>
+        <Verb>POST</Verb>
+        <Payload content-type="application/json">\{"name": "{query}"}</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

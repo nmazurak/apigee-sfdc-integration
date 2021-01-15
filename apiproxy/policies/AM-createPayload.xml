@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-createPayload">
+    <DisplayName>AM-createPayload</DisplayName>
+    <Properties/>
+    <Add>
+        <Headers>
+            <Header name="Authorization">{token_type} {access_token}</Header>
+            <Header name="Content-Type">application/json</Header>
+        </Headers>
+    </Add>
+    <Set>
+        <Verb>GET</Verb>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>
