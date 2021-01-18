@@ -24,5 +24,7 @@
 ### Import proxy 
   1. Clone and zip this project 
   2. Go to Develop -> Proxies -> import proxy from bundle 
-  2. Select previously saved zip file
+  3. Select previously saved zip file
+  4. Change {your-org-name} in target URL to your sfdc org name 
+  
   
