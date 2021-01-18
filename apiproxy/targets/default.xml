@@ -14,6 +14,6 @@
         <Response/>
     </PostFlow>
     <HTTPTargetConnection>
-        <URL>https://softserve-6e-dev-ed.my.salesforce.com/services/data/v50.0/sobjects</URL>
+        <URL>{your-org-name}.salesforce.com/services/data/v50.0/sobjects</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>
